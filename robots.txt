@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ideal-piscine.vercel.app/sitemap.xml
