@@ -1,7 +1,3 @@
-@font-face{font-family:Inter;font-weight:100 900;font-display:swap;src:url(/assets/fonts/inter.woff2) format("woff2")}@font-face{font-family:Sora;font-weight:100 800;font-display:swap;src:url(/assets/fonts/sora.woff2) format("woff2")}
-@font-face{font-family:Almarai;font-weight:400;font-display:swap;src:url(/assets/fonts/almarai-ar-400.woff2) format("woff2");unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE80-FEFC}@font-face{font-family:Almarai;font-weight:400;font-display:swap;src:url(/assets/fonts/almarai-lat-400.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+FEFF}
-@font-face{font-family:Almarai;font-weight:700;font-display:swap;src:url(/assets/fonts/almarai-ar-700.woff2) format("woff2");unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE80-FEFC}@font-face{font-family:Almarai;font-weight:700;font-display:swap;src:url(/assets/fonts/almarai-lat-700.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+FEFF}
-@font-face{font-family:Almarai;font-weight:800;font-display:swap;src:url(/assets/fonts/almarai-ar-800.woff2) format("woff2");unicode-range:U+0600-06FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE80-FEFC}@font-face{font-family:Almarai;font-weight:800;font-display:swap;src:url(/assets/fonts/almarai-lat-800.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+FEFF}
 :root{--ink:#04121f;--deep:#0a2540;--aqua:#2dd4e6;--aq2:#0e9fc0;--sand:#f2c879;--yellow:var(--aqua);--mut:#5a6b7c;--bg:#f2f6f9;--line:#0a25401a;--r:22px}
 *{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
 body{font-family:Inter,system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.65;-webkit-font-smoothing:antialiased}
@@ -242,8 +238,3 @@ html[dir=rtl]{font-size:106.25%}
 [dir=rtl] .head2{gap:14px}[dir=rtl] .urg{padding:20px}[dir=rtl] .panel{padding:24px 20px}
 [dir=rtl] footer{padding:52px 0 24px}[dir=rtl] footer .grid{gap:28px}
 }
-
-/* performance */
-header{background:#04121ff5;backdrop-filter:none}
-@media(max-width:860px){*{backdrop-filter:none!important}.wave{animation:none}.mbar{background:#04121ffa}.tile .ic{background:#ffffff33}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
