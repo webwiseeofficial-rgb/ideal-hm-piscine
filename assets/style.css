@@ -238,3 +238,7 @@ html[dir=rtl]{font-size:106.25%}
 [dir=rtl] .head2{gap:14px}[dir=rtl] .urg{padding:20px}[dir=rtl] .panel{padding:24px 20px}
 [dir=rtl] footer{padding:52px 0 24px}[dir=rtl] footer .grid{gap:28px}
 }
+
+/* Mobile wave: fixed width so speed/size match desktop */
+.wave{will-change:transform}
+@media(max-width:860px){.wave{width:1200px;height:70px;animation-duration:9s}}
