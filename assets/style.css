@@ -192,7 +192,7 @@ section[id]{scroll-margin-top:90px}
 .panel{grid-template-columns:1fr;padding:28px 22px;border-radius:22px}
 .gal.u{grid-template-columns:1fr 1fr}.gal.u .ph{min-height:230px}.chips{margin-right:-24px;padding-right:24px}}
 .links a.lang{font-size:.85rem;border:1px solid #ffffff33;padding:7px 14px;border-radius:99px;color:#fff}.links a.lang:hover{background:#fff;color:var(--ink)}
-[dir=rtl] body,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] h4,[dir=rtl] .btn,[dir=rtl] input,[dir=rtl] select,[dir=rtl] textarea,[dir=rtl] summary,[dir=rtl] .eyebrow,[dir=rtl] small,[dir=rtl] .nd b,[dir=rtl] .chip b,[dir=rtl] .chips a,[dir=rtl] .chips button,[dir=rtl] .mbar a,[dir=rtl] .links,[dir=rtl] .ph span,[dir=rtl] .tg,[dir=rtl] .info a,[dir=rtl] .faq summary,[dir=rtl] .check li{font-family:Cairo,Inter,sans-serif}
+[dir=rtl] body,[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3,[dir=rtl] h4,[dir=rtl] .btn,[dir=rtl] input,[dir=rtl] select,[dir=rtl] textarea,[dir=rtl] summary,[dir=rtl] .eyebrow,[dir=rtl] small,[dir=rtl] .nd b,[dir=rtl] .chip b,[dir=rtl] .chips a,[dir=rtl] .chips button,[dir=rtl] .mbar a,[dir=rtl] .links,[dir=rtl] .ph span,[dir=rtl] .tg,[dir=rtl] .info a,[dir=rtl] .faq summary,[dir=rtl] .check li{font-family:var(--arf)}
 [dir=rtl] *{letter-spacing:0!important}[dir=rtl] .wm{direction:ltr;letter-spacing:.04em!important;font-family:Sora,sans-serif}
 [dir=rtl] body{line-height:1.85}[dir=rtl] h1{line-height:1.3}[dir=rtl] h2,[dir=rtl] h3{line-height:1.4}
 [dir=rtl] .eyebrow{text-transform:none;font-size:.9rem}[dir=rtl] .sc small,[dir=rtl] .tg{text-transform:none}
@@ -208,3 +208,33 @@ section[id]{scroll-margin-top:90px}
 [dir=rtl] bdi{unicode-bidi:isolate}
 @media(max-width:860px){[dir=rtl] .tile .ic{left:auto;right:14px}[dir=rtl] .sw{scroll-padding-left:0;scroll-padding-right:24px}[dir=rtl] .faq details p{padding-left:0}
 [dir=rtl] .chips{margin-right:0;padding-right:0;margin-left:-24px;padding-left:24px}}
+[dir=rtl]{--arf:'Almarai',Tahoma,sans-serif}
+/* ===== Arabic polish (scoped to RTL only) ===== */
+html[dir=rtl]{font-size:106.25%}
+[dir=rtl] h1{font-weight:800;font-size:clamp(2.1rem,6.2vw,4.3rem)}
+[dir=rtl] h2{font-weight:800;font-size:clamp(1.6rem,3.4vw,2.6rem)}
+[dir=rtl] h3,[dir=rtl] h4,[dir=rtl] .card h3,[dir=rtl] .why h3,[dir=rtl] .tile h3,[dir=rtl] .sc h3,[dir=rtl] .nd b,[dir=rtl] .faq summary,[dir=rtl] .chip b,[dir=rtl] .wm+*{font-weight:700}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{text-wrap:balance}[dir=rtl] p,[dir=rtl] li span{text-wrap:pretty}
+[dir=rtl] .btn,[dir=rtl] .chips a,[dir=rtl] .chips button,[dir=rtl] .mbar a{font-weight:700;line-height:1.5}
+[dir=rtl] .eyebrow{font-weight:700;margin-bottom:14px}
+[dir=rtl] .lead{line-height:1.9}[dir=rtl] .card p,[dir=rtl] .why p,[dir=rtl] .check span,[dir=rtl] .sc p,[dir=rtl] .nd span{line-height:1.8}
+[dir=rtl] .check li{padding:16px 0}[dir=rtl] .check b{font-weight:700}
+[dir=rtl] .hero p{line-height:1.9}
+[dir=rtl] .tile h3{line-height:1.35}
+[dir=rtl] input,[dir=rtl] select,[dir=rtl] textarea{font-size:1rem;padding:15px 16px}
+@media(max-width:860px){
+[dir=rtl] section{padding:52px 0}[dir=rtl] section.tight{padding-top:44px}
+[dir=rtl] .hero{padding:36px 0 100px}[dir=rtl] .hero.sm{padding:32px 0 88px}[dir=rtl] .hero.xs{padding:30px 0 92px}
+[dir=rtl] .hero .cta{display:grid;grid-template-columns:1fr 1fr;gap:10px}[dir=rtl] .hero .cta .btn{justify-content:center;padding:14px 8px}
+[dir=rtl] .badges{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin-top:30px;padding-top:22px}
+[dir=rtl] .tiles{gap:12px}[dir=rtl] .tile h3{font-size:1rem}
+[dir=rtl] .card:not(.feat){padding:18px}[dir=rtl] .card:not(.feat) h3{font-size:1.02rem}
+[dir=rtl] .grid{gap:12px}[dir=rtl] .split{gap:32px}[dir=rtl] .faqgrid{gap:32px}
+[dir=rtl] .trio.six .why h3{font-size:1rem}[dir=rtl] .trio.six .why p{font-size:.88rem}
+[dir=rtl] .check li{padding:14px 0}[dir=rtl] .check{margin:20px 0 24px}
+[dir=rtl] .sc{min-height:300px}[dir=rtl] .sc h3{font-size:1.25rem}
+[dir=rtl] .nd{padding:18px 0}[dir=rtl] .qf{padding:22px}[dir=rtl] .qf h3{font-size:1.35rem}
+[dir=rtl] .faq summary{font-size:.98rem;line-height:1.6;padding:16px 0}[dir=rtl] .faq details p{font-size:.95rem}
+[dir=rtl] .head2{gap:14px}[dir=rtl] .urg{padding:20px}[dir=rtl] .panel{padding:24px 20px}
+[dir=rtl] footer{padding:52px 0 24px}[dir=rtl] footer .grid{gap:28px}
+}
