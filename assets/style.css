@@ -238,3 +238,23 @@ html[dir=rtl]{font-size:106.25%}
 [dir=rtl] .head2{gap:14px}[dir=rtl] .urg{padding:20px}[dir=rtl] .panel{padding:24px 20px}
 [dir=rtl] footer{padding:52px 0 24px}[dir=rtl] footer .grid{gap:28px}
 }
+/* ===== types de piscines + top bar ===== */
+.top{display:none;background:#020b13;color:#ffffffb3;font-size:.8rem;padding:9px 0}.top .wrap{display:flex;justify-content:space-between;gap:20px}.top span{display:flex;gap:26px}.top a:hover{color:var(--aqua)}
+@media(min-width:1021px){.top{display:block}}
+.dk{background:var(--ink);color:#fff;background-image:radial-gradient(700px 360px at 100% 0,#2dd4e629,transparent 60%)}.dk .eyebrow{color:var(--aqua)}.dk .lead{color:#ffffffb3}
+.types{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:44px}
+.tp{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:.35s}
+.tp:hover{transform:translateY(-6px);box-shadow:0 24px 50px #0a25402e;border-color:#2dd4e688}
+.tpi{position:relative;aspect-ratio:4/3;background:radial-gradient(circle at 75% 15%,#2dd4e655,transparent 55%),linear-gradient(160deg,#0e9fc0,var(--deep) 75%,var(--ink));overflow:hidden}
+.tpi img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:.8s}.tp:hover .tpi img{transform:scale(1.07)}
+.pl{position:absolute;inset:0;width:100%;height:100%;padding:12%;fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+.tpb{display:flex;flex-direction:column;flex:1;padding:20px 22px 22px}.tpb h3{font-size:1.1rem}.tpb p{color:#44586b;font-size:.9rem;margin-top:6px;line-height:1.55}.tpb .more{margin-top:auto;padding-top:16px}
+.dk .tp{background:#ffffff0a;border-color:#ffffff1f}.dk .tpb p{color:#ffffffb3}.dk .tpb .more{color:var(--aqua)}.dk .tp:hover{box-shadow:0 24px 50px #0006}
+.tfoot{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:40px}.tnote{color:var(--mut);margin-inline-end:8px}
+[dir=rtl] .tp:hover .more i{transform:translateX(-6px)}
+@media(max-width:1020px){.types{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:860px){
+.types{gap:12px;margin-top:30px}.tpb{padding:14px 14px 16px}.tpb h3{font-size:.98rem}.tpb p{font-size:.8rem;line-height:1.5}.tpb .more{font-size:.82rem;padding-top:10px}
+.types.r{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-24px;margin-right:-24px;padding:4px 24px 14px;scrollbar-width:none}.types.r::-webkit-scrollbar{display:none}
+.types.r .tp{flex:0 0 74%;scroll-snap-align:start}
+.tfoot{flex-direction:column;align-items:stretch;margin-top:26px}.tfoot .btn{justify-content:center}.tnote{margin:0 0 4px}}
