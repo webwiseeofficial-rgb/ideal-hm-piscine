@@ -258,3 +258,14 @@ html[dir=rtl]{font-size:106.25%}
 .types.r{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin-left:-24px;margin-right:-24px;padding:4px 24px 14px;scrollbar-width:none}.types.r::-webkit-scrollbar{display:none}
 .types.r .tp{flex:0 0 74%;scroll-snap-align:start}
 .tfoot{flex-direction:column;align-items:stretch;margin-top:26px}.tfoot .btn{justify-content:center}.tnote{margin:0 0 4px}}
+.pl{padding:0!important;opacity:1!important;stroke:none!important;fill:none}
+/* services compact cards + gallery balance */
+.svcs{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:44px}
+.svc{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;transition:.35s;scroll-margin-top:100px}
+.svc:hover{transform:translateY(-5px);box-shadow:0 22px 48px #0a254024;border-color:#2dd4e688}.svc:hover .ic{background:var(--aqua);color:var(--ink)}
+.svc .ic{margin-bottom:22px}.svc h3{font-size:1.3rem}.svc .sh{font-weight:600;margin-top:6px;color:var(--ink);font-size:.98rem}.svc p{color:#44586b;font-size:.95rem;margin-top:8px}
+.svc ul{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px}.svc li{font-size:.82rem;font-weight:500;padding:6px 13px;border-radius:99px;background:var(--bg);border:1px solid var(--line)}
+.svc .more{margin-top:auto;padding-top:22px;font-weight:600;font-size:.92rem;color:var(--aq2);display:flex;gap:8px}.svc:hover .more i{transform:translateX(6px)}[dir=rtl] .svc:hover .more i{transform:translateX(-6px)}
+.gal.u[data-n="4"]{grid-template-columns:repeat(2,1fr)}.gal.u[data-n="4"] .ph{min-height:380px}
+@media(max-width:860px){.svcs{grid-template-columns:1fr;gap:12px;margin-top:30px}.svc{padding:22px}.svc h3{font-size:1.12rem}
+.gal.u .ph:last-child:nth-child(odd){grid-column:span 2!important}.gal.u[data-n="4"] .ph{min-height:210px}}
